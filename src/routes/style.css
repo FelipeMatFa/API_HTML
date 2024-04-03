@@ -1,0 +1,52 @@
+* {
+    margin: 0;
+    padding: 0;
+
+}
+
+header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    
+    align-items: center;
+    background-color: #D1D1D1;
+}
+
+.nav-header{
+    display: flex;
+    justify-content: space-around;
+    width: 25vw;
+    margin-right: 10vh;
+}
+
+#logo-sbank{
+    height: 8vh;
+    margin: 2vh;
+    margin-left: 10vh;
+}
+
+.div-slogan{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    background-image:url(../assets/fundo.png);
+    height: 130vh;
+}
+
+.div-slogan_imagem_e_texto{
+    display: flex;
+    flex-direction: column;
+    width: 55vh;
+}
+
+h1{
+    font-weight: 800;
+    font-size: 35px;
+    color: #FFFFFF;
+}
+
+/* #div-slogan_imagem_e_texto-paragrafo{
+
+} */
